@@ -1,0 +1,38 @@
+{
+  "cost": "10.1 L",
+  "specifications": {
+    "name": "Honda City",
+    "fuel_type": "Petrol/Diesel",
+    "engine_cc": "1498",
+    "torque": "130Nm@4200rpm",
+    "acceleration": "0-100kms in just 10-11 seconds",
+    "top_speed": "180 kmph.",
+    "variant": [
+      "V MT",
+      "V CVT",
+      "VX MT",
+      "V MT Diesel",
+      "ZX MT",
+      "VX CVT",
+      "VX MT Diesel",
+      "ZX CVT",
+      "ZX MT Diesel"
+    ],
+    "image": ""
+  },
+  "exterior": {
+    "length": "4,549 mm",
+    "width": "1,748 mm",
+    "color": "#9d383e",
+    "image": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Honda/City-2017-2020/7259/Honda-City-2017-2020-SV-MT/1637828825177/front-left-side-47.jpg?impolicy=resize&imwidth=420"
+  },
+  "interior": {
+    "text": [
+      "The City is a 5 seater 4 cylinder car",
+      "available with Manual & Automatic transmission"
+    ],
+    "color": "#ffffff",
+    "image1": "https://img.indianautosblog.com/2016/01/Honda-City-all-black-interior-India-launched.jpg",
+    "image2": ""
+  }
+}

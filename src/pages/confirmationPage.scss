@@ -1,0 +1,50 @@
+.confirm-page-parent {
+  display: flex;
+  justify-content: center;
+
+  .confirm-page-container {
+    height: 40rem;
+    background-color: #fff;
+    width: 90%;
+    box-sizing: border-box;
+
+    .img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .success-container {
+      height: 40%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2%;
+      .car-img-container {
+        height: 10rem;
+        width: 30%;
+      }
+
+      #lbl-cnf {
+        font-size: large;
+        margin-bottom: 1%;
+      }
+
+      .download-text {
+        font-weight: 700;
+
+        #btn-download {
+          font-weight: 700;
+          color: #790e22;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .explore-container {
+      cursor: pointer;
+      height: 55%;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.footer-container {
+  color: #fff;
+  background: black;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 10%;
+  // padding: 10%;
+  padding-bottom: 5%;
+
+  .footer-sub-container {
+    background-color: "red";
+    width: 15%;
+  }
+
+  .footer-subheading {
+    margin-bottom: 10%;
+    font-size: large;
+    font-weight: 600;
+  }
+}

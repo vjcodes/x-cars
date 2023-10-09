@@ -1,0 +1,31 @@
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 10%;
+  padding: 1%;
+
+  #img-xtr-logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .header-options {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+  }
+
+  .my-profile {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+}

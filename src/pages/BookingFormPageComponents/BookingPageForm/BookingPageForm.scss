@@ -1,0 +1,57 @@
+.booking-form-container {
+  padding: 2%;
+  width: 60%;
+  background-color: #f5f5f5;
+
+  .car-details-heading {
+    font-size: x-large;
+    font-weight: 500;
+
+    .details-sub {
+      font-weight: 700;
+    }
+  }
+
+  .input-container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .error-message {
+    color: red;
+  }
+
+  .input-fields {
+    width: 50%;
+    height: 1.5rem;
+  }
+
+  .label {
+    margin-bottom: 1%;
+  }
+
+  .select {
+    width: 51%;
+    height: 2rem;
+  }
+
+  .check {
+    display: flex;
+    align-items: center;
+  }
+
+  .submit-btn-container {
+    height: 5rem;
+    display: flex;
+    align-items: end;
+
+    .submit-btn {
+      padding: 2%;
+      border: none;
+      background-color: #790e22;
+      font-size: larger;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

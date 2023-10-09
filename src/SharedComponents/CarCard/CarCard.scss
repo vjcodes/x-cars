@@ -1,0 +1,28 @@
+.car-card-container {
+  box-sizing: border-box;
+  height: 30rem;
+  width: 32%;
+  border: 1px solid #cccccc;
+  margin-bottom: 3%;
+
+  .car-card-description-container {
+    box-sizing: border-box;
+    padding: 2%;
+
+    .car-card-name {
+      box-sizing: border-box;
+      font-weight: 700;
+      font-size: larger;
+    }
+
+    .price-description-section {
+      margin-top: 2%;
+      display: flex;
+      justify-content: space-between;
+
+      .arrow-btn {
+        cursor: pointer;
+      }
+    }
+  }
+}

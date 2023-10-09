@@ -1,0 +1,45 @@
+.cars-list-filter-section {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .car-types-filter {
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: #f5f5f5;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+
+    .individual-filter {
+      height: 3rem;
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .active-filter {
+      color: white;
+      background-color: black;
+    }
+  }
+
+  .view-all {
+    cursor: pointer;
+    width: 10%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #view-more-text {
+      margin-right: 2%;
+    }
+  }
+}

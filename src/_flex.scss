@@ -1,0 +1,132 @@
+// Flex grid limit. Flex scoped variable
+$gridLimit: 100;
+
+// Flex scoped mixin
+@mixin flex-grid-list {
+  @for $i from 0 through $gridLimit {
+    &--#{$i} {
+      flex-basis: #{$i * 1%};
+    }
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  &--fit {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  &--center {
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--start {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  &--end {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  &--self-center {
+    align-self: center;
+  }
+
+  &--self-start {
+    align-self: flex-start;
+  }
+
+  &--self-end {
+    align-self: flex-end;
+  }
+
+  &--align-stretch {
+    align-items: stretch;
+  }
+
+  &--align-start {
+    align-items: flex-start;
+  }
+
+  &--align-end {
+    align-items: flex-end;
+  }
+
+  &--align-center {
+    align-items: center;
+  }
+
+  &--align-baseline {
+    align-items: baseline;
+  }
+
+  &--justify-start {
+    justify-content: flex-start;
+  }
+
+  &--justify-end {
+    justify-content: flex-end;
+  }
+
+  &--justify-center {
+    justify-content: center;
+  }
+
+  &--space-between {
+    justify-content: space-between;
+  }
+
+  &--space-around {
+    justify-content: space-around;
+  }
+
+  &--space-evenly {
+    justify-content: space-evenly;
+  }
+
+  &--column {
+    flex-direction: column;
+  }
+
+  &--column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  &--row {
+    flex-direction: row;
+  }
+
+  &--row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  &--wrap {
+    flex-wrap: wrap;
+  }
+
+  &--nowrap {
+    flex-wrap: nowrap;
+  }
+
+  &--grow {
+    flex-grow: 1;
+  }
+
+  /**
+   * Flex grid styles
+   * Use flex grid in percentage 
+   */
+  @include flex-grid-list;
+}

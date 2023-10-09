@@ -1,0 +1,39 @@
+.filter-section-container {
+  background-color: #1c1b1b;
+  height: 20%;
+  width: 100%;
+  display: flex;
+
+  .tabs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 100%;
+
+    .tab-label {
+      width: 10rem;
+    }
+
+    .tabs {
+      width: 100% !important;
+      color: #a6a5a5;
+    }
+  }
+}
+
+.ant-tabs-tab {
+  color: #fff !important;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff !important;
+  font-size: large;
+  font-weight: 500;
+}
+
+.ant-tabs-ink-bar {
+  height: 5px;
+  background: #fff !important;
+}

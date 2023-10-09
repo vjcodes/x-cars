@@ -1,0 +1,107 @@
+.cars-list-container {
+  background-color: black;
+
+  .banner {
+    margin-left: 5%;
+    width: 90%;
+    height: 80% !important;
+    position: relative;
+
+    .banner-text {
+      font-weight: 700;
+      font-size: xx-large;
+      color: #ffffff;
+      position: absolute;
+      top: 10%;
+      left: 35%;
+      right: 35%;
+      bottom: 90%;
+    }
+
+    .search-input {
+      position: absolute;
+      height: 10%;
+      width: 50%;
+      left: 25%;
+      right: 50%;
+      top: 80%;
+      bottom: 40%;
+    }
+  }
+
+  .list-section {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    max-width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+
+    .featured-cars-heading {
+      font-weight: 500;
+      font-size: x-large;
+      margin-bottom: 2%;
+
+      #cars-bold {
+        font-weight: 800;
+      }
+    }
+
+    .cars-list-filter-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .car-types-filter {
+        display: flex;
+        align-items: center;
+        margin-top: 1%;
+        padding: 1%;
+        background-color: #f5f5f5;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2%;
+
+        .individual-filter {
+          height: 3rem;
+          width: 30%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+        }
+
+        .active-filter {
+          color: white;
+          background-color: black;
+        }
+      }
+
+      .view-all {
+        cursor: pointer;
+        width: 10%;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        #view-more-text {
+          margin-right: 2%;
+        }
+      }
+    }
+
+    .loader-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cars-list {
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
